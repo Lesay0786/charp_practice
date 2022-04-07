@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace _13.Task1
 {
-    internal class TypeEngine : Engine
+    public class TypeEngine
     {
         public string Type { get; set; }
+        public TypeEngine(string type)
+        {
+            Type = type;
+        }
     }
 }
